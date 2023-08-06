@@ -6,6 +6,7 @@
   --green: #31d0aa;
   --light-slate: #8e8f99;
   --navy-blue: #2e2f42;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
   --ocean: #404bbf;
   --white: #fff;
   --slate: #434455;
@@ -72,6 +73,10 @@ ol {
 img {
   display: block;
   max-width: 100%;
+}
+
+input {
+  font-family: inherit;
 }
 
 .visually-hidden {
@@ -651,6 +656,7 @@ img {
   transform: translate(-50%, -50%) scale(1);
   width: 408px;
   min-height: 584px;
+  padding: 72px 24px 24px 24px;
   background: var(--dairy);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -692,4 +698,80 @@ img {
 .icon-modal:focus {
   fill: var(--white);
   fill: #ffffff;
+}
+
+.form-title {
+  margin-bottom: 16px;
+  color: var(--navy-blue);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-subtitle {
+  display: flex;
+  flex-direction: column;
+  color: var(--light-slate);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+.form-imput {
+  width: 360px;
+  height: 36px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--navy-blue-modal);
+}
+
+.form-imput-comit {
+  width: 360px;
+  height: 102px;
+  border-radius: 4px;
+  border: 1px solid var(--navy-blue-modal);
+}
+
+.form-accept-box {
+  margin: 8px 0 24px 0;
+  padding: 0;
+}
+
+.form-accept {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  border-radius: 4px;
+  border: 1px solid var(--navy-blue-modal);
+}
+
+.form-text-accept {
+  margin: 0;
+  padding: 0;
+
+  color: var(--light-slate);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+}
+
+.form-button {
+  padding: 16px 64px;
+  align-self: center;
+
+  color: var(--white);
+  background-color: var(--iris);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
