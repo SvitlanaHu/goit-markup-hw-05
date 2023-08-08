@@ -626,6 +626,53 @@ input {
   background-color: var(--green);
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+  gap: 24px;
+}
+
+.subscribe-imput {
+  min-width: 264px;
+  min-height: 40px;
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+
+.subscribe-imput::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+
+  color: var(--white);
+  background-color: var(--navy-blue);
+}
+
+.subscribe-button {
+  display: flex;
+  margin-top: 26px;
+  padding: 8px 24px;
+  gap: 16px;
+  max-height: 40px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  fill: var(--white);
+  background-color: var(--iris);
+}
+
 /**
   |============================
   | Modal window
@@ -785,4 +832,9 @@ input {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+}
+
+.form-button:disabled {
+  background-color: lightgray;
+  cursor: not-allowed;
 }

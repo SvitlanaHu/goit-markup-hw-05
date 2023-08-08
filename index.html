@@ -594,6 +594,25 @@
             </li>
           </ul>
         </div>
+
+        <div class="placement-in-a-line footer-subscribe">
+          <label class="social-title" for="useremail">
+            Subscribe
+            <input
+              class="subscribe-imput"
+              type="email"
+              name="useremail"
+              placeholder="E-mail"
+              required
+            />
+          </label>
+          <button class="subscribe-button" type="submit">
+            Subscribe
+            <svg class="subscribe-icon" width="24" height="24">
+              <use href="./images/icons.svg#plane-icon"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
 
@@ -613,17 +632,17 @@
         <form class="form-box" action="">
           <label class="form-subtitle" for="username">
             Name
-            <input class="form-imput" type="text" name="username" />
+            <input class="form-imput" type="text" name="username" required />
           </label>
 
           <label class="form-subtitle" for="userphone">
             Phone
-            <input class="form-imput" type="tel" name="userphone" />
+            <input class="form-imput" type="tel" name="userphone" required />
           </label>
 
           <label class="form-subtitle" for="useremail">
             Email
-            <input class="form-imput" type="email" name="useremail" />
+            <input class="form-imput" type="email" name="useremail" required />
           </label>
 
           <label class="form-subtitle" for="usercomment">
@@ -637,7 +656,7 @@
           </label>
 
           <div class="form-accept-box">
-            <input class="form-accept" type="checkbox" />
+            <input class="form-accept" type="checkbox" required />
             <span class="form-text-accept">
               I accept the terms and conditions of the
               <a href="">Privacy Policy</a>
