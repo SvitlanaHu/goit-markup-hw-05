@@ -629,6 +629,7 @@ input {
 .footer-subscribe {
   margin-left: 80px;
   gap: 24px;
+  align-items: flex-start;
 }
 
 .subscribe-imput {
@@ -659,7 +660,7 @@ input {
 
 .subscribe-button {
   display: flex;
-  margin-top: 26px;
+  margin-top: 40px;
   padding: 8px 24px;
   gap: 16px;
   max-height: 40px;
