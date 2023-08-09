@@ -642,7 +642,16 @@
 
           <label class="form-subtitle" for="useremail">
             Email
-            <input class="form-imput" type="email" name="useremail" required />
+            <input
+              class="form-imput"
+              type="email"
+              name="useremail"
+              placeholder=""
+              required
+            />
+            <svg class="input-icon" width="18" height="24">
+              <use href="./images/icons.svg#icon-mail-icon"></use>
+            </svg>
           </label>
 
           <label class="form-subtitle" for="usercomment">
@@ -655,13 +664,13 @@
             ></textarea>
           </label>
 
-          <div class="form-accept-box">
+          <label class="form-accept-box">
             <input class="form-accept" type="checkbox" required />
             <span class="form-text-accept">
               I accept the terms and conditions of the
               <a href="">Privacy Policy</a>
             </span>
-          </div>
+          </label>
 
           <button class="form-button" type="submit">Send</button>
         </form>
