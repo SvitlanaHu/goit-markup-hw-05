@@ -821,6 +821,10 @@ input {
   fill: var(--iris);
 }
 
+.form-name-boxarea {
+  margin-bottom: 16px;
+}
+
 .form-accept:checked + .form-subtitle {
   background-color: var(--ocean);
   fill: #f4f4fd;
