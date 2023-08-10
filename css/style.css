@@ -812,8 +812,12 @@ input {
 }
 
 .form-imput:hover,
-.form-imput:focus + .input-icon {
+.form-imput:focus {
   border-color: var(--iris);
+}
+
+.form-imput:hover + .input-icon,
+.form-imput:focus + .input-icon {
   fill: var(--iris);
 }
 
