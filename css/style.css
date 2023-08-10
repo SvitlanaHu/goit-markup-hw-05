@@ -878,9 +878,9 @@ input {
   border: 1px solid var(--navy-blue-modal);
 }
 
-.form-accept:checked + .form-text-accept > .check-mark-box {
+.form-accept:checked + .form-text-accept > .user-privacy-box {
   background-color: var(--ocean);
-  fill: #f4f4fd;
+  fill: var(--cloud);
   border: none;
 }
 
@@ -908,7 +908,13 @@ input {
   fill: transparent;
 }
 
+.privacy-policy {
+  color: var(--iris);
+}
+
 .form-button {
+  min-width: 169px;
+  height: 56px;
   padding: 16px 64px;
   align-self: center;
   color: var(--white);
@@ -917,6 +923,9 @@ input {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
