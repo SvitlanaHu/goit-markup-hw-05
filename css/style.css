@@ -779,7 +779,7 @@ input {
 
 .form-subtitle {
   display: block;
-
+  margin-bottom: 4px;
   flex-direction: column;
   color: var(--light-slate);
   font-size: 12px;
